@@ -1,0 +1,15 @@
+.chb input {
+  display: none;
+}
+
+.chb .checked {
+  display: none;
+}
+
+.chb input:checked ~ .checked {
+  display: inline;
+}
+
+.chb input:checked ~ .unchecked {
+  display: none;
+}
