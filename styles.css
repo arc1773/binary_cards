@@ -1,15 +1,24 @@
-.chb input {
-  display: none;
+.img{
+  height: 70%;
+  border-radius: 30%;
 }
 
-.chb .checked {
-  display: none;
+.result{
+  font-size: 50px;
 }
 
-.chb input:checked ~ .checked {
+.result p{
   display: inline;
 }
 
-.chb input:checked ~ .unchecked {
-  display: none;
+#images{
+  background-color: blue;
+  height: 150px;
+  border-radius: 30px;
+  border-style: solid;
+  border-color:blueviolet;
+  border-width: 10px;
+  display: flex;
+  align-items: center;
+  justify-content:space-evenly;
 }
