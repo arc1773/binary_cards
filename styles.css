@@ -3,15 +3,27 @@
   border-radius: 30%;
 }
 
+#results{
+  width: 700px;
+}
+
 .result{
   font-size: 50px;
+  text-shadow: 3px 3px 6px green;
+  position: relative;
 }
 
 .result p{
   display: inline;
+  position: absolute;
+  place-self: center;
+  right: 10px;
+
 }
 
 #images{
+  overflow: auto;
+  box-shadow: 4px 4px 7px blue;
   background-color: blue;
   height: 150px;
   border-radius: 30px;
@@ -21,4 +33,13 @@
   display: flex;
   align-items: center;
   justify-content:space-evenly;
+}
+
+dl{
+  font-size: 20px;
+  text-shadow: 1px 1px 10px blue;
+}
+
+dt{
+  font-weight: bold;
 }
